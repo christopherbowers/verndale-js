@@ -124,6 +124,6 @@ document.addEventListener('keydown', (e) => {
 	}
 	if (e.key === 'Enter') {
 		searchInput.value = selected.innerText
-		clearList()
+		stateResultList.innerHTML = ''
 	}
 })
