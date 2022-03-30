@@ -1,0 +1,94 @@
+@import "reset";
+
+body,
+html {
+	font-weight: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+}
+
+#app {
+	width: 1170px;
+	max-width: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.search-section {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	width: 322px;
+}
+
+.state-list ul {
+	margin-left: 22px;
+	border-top: none;
+	border-radius: 6px;
+	width: 320px;
+}
+
+.state-list li {
+	padding: 12px;
+	border: none;
+	cursor: pointer;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.state-list li:last-child {
+	border-bottom: 1px solid black;
+	border-radius: 0 0 6px 6px;
+
+}
+// .state-list li:hover,
+.selected {
+	background: #9df;
+}
+
+ .state-input {
+	width: 300px;
+	position: relative;
+}
+
+input {
+	font-size: 1rem;
+	margin: 0px;
+	padding: 10px;
+	width: 100%;
+	height: 30px;
+	border-radius: 6px;
+	border: 1px solid black;
+}
+
+button {
+	position: absolute;
+	top: 0;
+	right: -10px;
+	z-index: 2;
+	border: none;
+	top: 18px;
+	cursor: pointer;
+	background: none;
+}
+
+svg:hover circle {
+	fill: #bbb;
+}
+
+.overflow {
+	height: 220px;
+	overflow: scroll;
+}
+
+
+.hidden {
+	display: none;
+}

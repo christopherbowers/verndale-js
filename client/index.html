@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Verndale Javascript Code Test</title>
+</head>
+<body>
+	<div id="app">
+		<!-- Autocomplete component -->
+		<div class="search-section">
+			<div class="state-input">
+				<input type="text" id="search-input" placeholder="Search States" />
+				<button id="clear" class="hidden">
+				  <svg height="15" width="15" viewBox="0 0 100 100">
+					<circle cx="50" cy="50" r="50" fill="#ddd"/>
+					<line  x1="25" y1="75" x2="75" y2="25" style="stroke:#000; stroke-width:10" />
+					<line x1="25" y1="25" x2="75" y2="75" style="stroke:#000; stroke-width:10" />
+				  </svg>
+				</button>
+			</div>
+			<div class="state-list">
+				<!-- Search results list render here -->
+			</div>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src='../dist/main-bundle.js'></script>
+</body>
+</html>
