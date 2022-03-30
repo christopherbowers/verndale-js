@@ -46,9 +46,8 @@ body {
 .state-list li:last-child {
 	border-bottom: 1px solid black;
 	border-radius: 0 0 6px 6px;
-
 }
-// .state-list li:hover,
+
 .selected {
 	background: #9df;
 }
@@ -87,7 +86,6 @@ svg:hover circle {
 	height: 220px;
 	overflow: scroll;
 }
-
 
 .hidden {
 	display: none;
